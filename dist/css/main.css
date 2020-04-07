@@ -415,7 +415,7 @@ ul {
  */
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: estedad; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -593,6 +593,108 @@ img,
 video {
   max-width: 100%;
   height: auto;
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  src: url('../fonts/Estedad-Thin.eot');
+
+  src: url('../fonts/Estedad-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Thin.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Thin.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  src: url('../fonts/Estedad-Thin.eot');
+
+  src: url('../fonts/Estedad-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Thin.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Thin.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: url('../fonts/Estedad-Light.eot');
+
+  src: url('../fonts/Estedad-Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Light.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  src: url('../fonts/Estedad-Medium.eot');
+
+  src: url('../fonts/Estedad-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Medium.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: url('../fonts/Estedad-Bold.eot');
+
+  src: url('../fonts/Estedad-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Bold.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: estedad;
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  src: url('../fonts/Estedad-Black.eot');
+
+  src: url('../fonts/Estedad-Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/Estedad-Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/Estedad-Black.woff') format('woff');
+
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+html,
+body {
+  direction: rtl;
+  font-family: 'estedad';
 }
 
 .container {
@@ -3694,7 +3796,7 @@ video {
 }
 
 .font-sans {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: estedad;
 }
 
 .font-serif {
@@ -13946,10 +14048,6 @@ video {
   transition-duration: 1000ms;
 }
 
-body {
-  direction: rtl;
-}
-
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -17022,7 +17120,7 @@ body {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: estedad;
   }
 
   .sm\:font-serif {
@@ -30347,7 +30445,7 @@ body {
   }
 
   .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: estedad;
   }
 
   .md\:font-serif {
@@ -43672,7 +43770,7 @@ body {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: estedad;
   }
 
   .lg\:font-serif {
@@ -56997,7 +57095,7 @@ body {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: estedad;
   }
 
   .xl\:font-serif {
