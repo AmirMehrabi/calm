@@ -1,0 +1,14 @@
+# 301 Redirect Entire Directory
+RewriteEngine on
+
+RewriteRule ^chapters/?$ - [F,L]
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Prevent directory listings
+Options All -Indexes
+
