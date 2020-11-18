@@ -1,12 +1,11 @@
 const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require('tailwindcss')
 require('laravel-mix-jigsaw');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
-    .copyDirectory('source/_assets/fonts', 'source/assets/build/css/fonts')
     .js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css')
     .options({

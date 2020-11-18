@@ -5,7 +5,6 @@ title: صفحه نخست
 
 @section('body')
 
-@foreach ($chapters as $chapter)
 <div class="container w-full mx-auto pt-20">
     <div class="flex w-full sm:w-4/5 md:w-3/4 mx-auto">
 
@@ -35,7 +34,7 @@ title: صفحه نخست
 
         </div>
         <div class="hidden sm:flex w-1/3 md:w-1/4 text-gray-700 text-center px-4 py-2 m-2">
-            <img src="dist/images/calm.gif" class="w-full mx-auto object-contain h-auto" alt="Poster Image">
+            <img src="assets/images/calm.gif" class="w-full mx-auto object-contain h-auto" alt="Poster Image">
         </div>
     </div>
 </div>
@@ -47,9 +46,9 @@ title: صفحه نخست
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-lg lg:text-xl font-bold text-left">نخست</div>
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-right border-r">
                 <div class="flex flex-col">
-                    <a href="chapters/1.html" class="mb-2 hover:underline text-sm lg:text-normal">دارم به فنا می‌رم</a>
-                    <a href="chapters/2.html" class="mb-2 hover:underline text-sm lg:text-normal">مختصری دربارهٔ ما</a>
-                    <a href="chapters/3.html" class="mb-2 hover:underline text-sm lg:text-normal">شرکت شما یک محصول است</a>
+                    <a href="chapters/01" class="mb-2 hover:underline text-sm lg:text-normal">دارم به فنا می‌رم</a>
+                    <a href="chapters/02" class="mb-2 hover:underline text-sm lg:text-normal">مختصری دربارهٔ ما</a>
+                    <a href="chapters/03" class="mb-2 hover:underline text-sm lg:text-normal">شرکت شما یک محصول است</a>
                 </div>
 
             </div>
@@ -60,12 +59,12 @@ title: صفحه نخست
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-lg lg:text-xl font-bold text-left">جاه‌طلبی خود را مهار کن</div>
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-right border-r">
                 <div class="flex flex-col">
-                    <a href="chapters/4.html" class="mb-2 hover:underline text-sm lg:text-normal">دندان طمع را بکن</a>
-                    <a href="chapters/5.html" class="mb-2 hover:underline text-sm lg:text-normal">اقیانوس خوشحالی</a>
-                    <a href="chapters/6.html" class="mb-2 hover:underline text-sm lg:text-normal">هدف ما: بی‌هدفی</a>
-                    <a href="chapters/7.html" class="mb-2 hover:underline text-sm lg:text-normal">لازم نیست دنیا را تغییر بدهی</a>
-                    <a href="chapters/8.html" class="mb-2 hover:underline text-sm lg:text-normal">در لحظه تصمیم بگیرید</a>
-                    <a href="chapters/9.html" class="mb-2 hover:underline text-sm lg:text-normal">راحت باش</a>
+                    <a href="chapters/04" class="mb-2 hover:underline text-sm lg:text-normal">دندان طمع را بکن</a>
+                    <a href="chapters/05" class="mb-2 hover:underline text-sm lg:text-normal">اقیانوس خوشحالی</a>
+                    <a href="chapters/06" class="mb-2 hover:underline text-sm lg:text-normal">هدف ما: بی‌هدفی</a>
+                    <a href="chapters/07" class="mb-2 hover:underline text-sm lg:text-normal">لازم نیست دنیا را تغییر بدهی</a>
+                    <a href="chapters/08" class="mb-2 hover:underline text-sm lg:text-normal">در لحظه تصمیم بگیرید</a>
+                    <a href="chapters/09" class="mb-2 hover:underline text-sm lg:text-normal">راحت باش</a>
 
                 </div>
 
@@ -140,5 +139,4 @@ title: صفحه نخست
 
 </div>
 
-@endforeach
 @endsection

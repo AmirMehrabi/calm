@@ -39,7 +39,8 @@
                 </div>
 
             </div>
-            <div class="markdown-body w-full sm:w-2/3 md:w-3/4 text-black text-right px-4 py-2 m-2 leading-relaxed">
+            <div class="markdown-body w-full sm:w-2/3 md:w-3/4 text-black font-light text-lg text-right px-4 py-2 m-2 leading-relaxed">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">{{ $page->title }}</h1>
                 @yield('content')
 
             </div>
@@ -56,7 +57,7 @@
                         <p class="py-4 text-gray-600 text-sm">
                             ترجمهٔ این کتاب کاریست از امیرمسعود مهرابیان که به صورت آزاد و رایگان روی <a href="https://github.com/AmirMehrabi/calm" class="text-purple-700 hover:text-purple-900 hover:underline">گیت‌هاب</a> منتشر می‌شود
                         </p>
-                        نسخه ۰.۳.۰ - <a href="../changelog.html" class="text-purple-700 hover:text-purple-900 hover:underline">تاریخچه تغییرات</a>
+                        نسخه ۰.۳.۰ - <a href="/changelog" class="text-purple-700 hover:text-purple-900 hover:underline">تاریخچه تغییرات</a>
                     </div>
                 </div>
             </div>
