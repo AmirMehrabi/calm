@@ -1,11 +1,16 @@
 module.exports = {
-    theme: {
-        extend: {
-            fontFamily: {
-                'sans': ['estedad']
-            }
-        },
-    },
-    variants: {},
-    plugins: [],
+  purge: {
+    content: [
+      'source/**/*.blade.php',
+      'source/**/*.md',
+      'source/**/*.html',
+    ]
+  },
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
