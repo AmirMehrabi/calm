@@ -32,7 +32,7 @@ title: صفحه نخست
 
             </div>
 
-        </div>
+        </div> 
         <div class="hidden sm:flex w-1/3 md:w-1/4 text-gray-700 text-center px-4 py-2 m-2">
             <img src="assets/images/calm.gif" class="w-full mx-auto object-contain h-auto" alt="Poster Image">
         </div>
