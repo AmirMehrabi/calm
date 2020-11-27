@@ -35,7 +35,11 @@
                 <div class="text-purple-800 text-2xl sm:text-3xl md:text-4xl font-bold text-center sm:text-left">{{ $page->title }}</div>
 
                 <div class="text-purple-700 text-center sm:text-left hover:underline">
-                    <!-- <a href="13.html">بعدی: توهم بیشتر از دیگران کار کردن</a> -->
+                    @if ($page->next_title)
+                        <a href="{{ $page->next_link }}">بعدی: {{ $page->next_title }}</a>
+                    @endif
+                
+                    
                 </div>
 
             </div>
