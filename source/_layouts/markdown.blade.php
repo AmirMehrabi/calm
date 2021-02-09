@@ -9,7 +9,7 @@
     <meta name="author" content="Jason Fried,David Heinemeier Hansson,امیرمسعود مهرابیان">
     <meta name="description" content="چقدر پیش آمده بشنوید یک نفر بگوید «سر کار دارم به فنا می‌رم»؟ حتی شاید خودتان هم این جمله را گفته باشید. برای خیلی‌ها، «دارم سر کار به فنا می‌رم» تبدیل به یک روتین شده. ولی دلیل این‌همه اضطراب چیست؟">
     <!-- <meta name="keywords" content="keywords,here"> -->
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ mix('css/main.css', 'calm/assets/build') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
 
