@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="author" content="Jason Fried,David Heinemeier Hansson,امیرمسعود مهرابیان">
     <meta name="description" content="{{ $page->description }}">
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ mix('css/main.css', 'calm/assets/build') }}">
 
 </head>
 
