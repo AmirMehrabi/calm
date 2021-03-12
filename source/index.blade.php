@@ -77,11 +77,11 @@ title: صفحه نخست
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-lg lg:text-xl font-bold text-left ">از وقت خود دفاع کن</div>
             <div class="w-1/2 text-gray-900 px-4 py-2 m-2 text-right border-r">
                 <div class="flex flex-col">
-                    <a href="chapters/10.html" class="mb-2 hover:underline text-sm lg:text-normal">۸ ساعت کافی، ۴۰ ساعت زیاد است</a>
-                    <a href="chapters/11.html" class="mb-2 hover:underline text-sm lg:text-normal">حفظ‌گرایی</a>
-                    <a href="chapters/12.html" class="mb-2 hover:underline text-sm lg:text-normal">زمان باکیفیت</a>
-                    <a href="chapters/13.html" class="mb-2 hover:underline text-sm lg:text-normal">اثربخشی > بهره‌وری</a>
-                    <a href="chapters/14.html" class="mb-2 hover:underline text-sm lg:text-normal">توهم بیشتر از دیگران کار کردن</a>
+                    <a href="chapters/10" class="mb-2 hover:underline text-sm lg:text-normal">۸ ساعت کافی، ۴۰ ساعت زیاد است</a>
+                    <a href="chapters/11" class="mb-2 hover:underline text-sm lg:text-normal">حفظ‌گرایی</a>
+                    <a href="chapters/12" class="mb-2 hover:underline text-sm lg:text-normal">زمان باکیفیت</a>
+                    <a href="chapters/13" class="mb-2 hover:underline text-sm lg:text-normal">اثربخشی > بهره‌وری</a>
+                    <a href="chapters/14" class="mb-2 hover:underline text-sm lg:text-normal">توهم بیشتر از دیگران کار کردن</a>
 
                 </div>
 
