@@ -6,8 +6,9 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+config.production.php
 
 # Optional ignores
-# /build_staging/
-# /build_production/
-# /source/assets/build/
+ /build_staging/
+ /build_production/
+ /source/assets/build/
