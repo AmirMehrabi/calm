@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> لازم نیست زیاده‌ازحد کار کنی - {{ $page->title }}</title>
 
-    <link rel="canonical" href="{{ $page->getUrl() }}">
+    <link rel="canonical" href="{{ $page->baseUrl }}{{ $page->getUrl() }}">
     <meta name="author" content="Jason Fried,David Heinemeier Hansson,امیرمسعود مهرابیان">
     <meta name="description" content="{{ $page->description }}">
-    <link rel="stylesheet"  type="text/css" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet"  type="text/css" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
 
 </head>
 
@@ -23,7 +23,7 @@
         <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
             
             <div class="pl-4">
-                <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="/"> 
+                <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="{{ $page->baseUrl }}"> 
 					لازم نیست زیاده‌ازحد کار کنی
 				</a>
             </div>
@@ -37,7 +37,7 @@
             <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
                 <ul class="list-reset lg:flex justify-end flex-1 items-center">
                     <li class="mr-3">
-                        <a class="inline-block py-2 px-4 text-gray-900 hover:text-black hover:underline font-bold " href="/about">درباره کتاب</a>
+                        <a class="inline-block py-2 px-4 text-gray-900 hover:text-black hover:underline font-bold " href="{{ $page->baseUrl }}/about">درباره کتاب</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +62,7 @@
                         <p class="py-4 text-gray-600 text-sm">
                             ترجمهٔ این کتاب کاریست از امیرمسعود مهرابیان که به صورت آزاد و رایگان روی <a href="https://github.com/AmirMehrabi/calm" class="text-purple-700 hover:text-purple-900 hover:underline">گیت‌هاب</a> منتشر می‌شود
                         </p>
-                        نسخه ۰.۳.۰ - <a href="/changelog" class="text-purple-700 hover:text-purple-900 hover:underline">تاریخچه تغییرات</a>
+                        نسخه ۰.۳.۰ - <a href="{{ $page->baseUrl }}/changelog" class="text-purple-700 hover:text-purple-900 hover:underline">تاریخچه تغییرات</a>
                     </div>
                 </div>
             </div>

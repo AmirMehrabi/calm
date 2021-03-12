@@ -9,7 +9,7 @@
     <meta name="author" content="Jason Fried,David Heinemeier Hansson,امیرمسعود مهرابیان">
     <meta name="description" content="چقدر پیش آمده بشنوید یک نفر بگوید «سر کار دارم به فنا می‌رم»؟ حتی شاید خودتان هم این جمله را گفته باشید. برای خیلی‌ها، «دارم سر کار به فنا می‌رم» تبدیل به یک روتین شده. ولی دلیل این‌همه اضطراب چیست؟">
     <!-- <meta name="keywords" content="keywords,here"> -->
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
 
     <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
 
@@ -27,7 +27,7 @@
         <div class="flex flex-col sm:flex-row ">
             <div class="w-full sm:w-1/3 md:w-1/4 text-gray-700 text-center px-4 py-2 m-2">
                 <div class="mb-5 text-center sm:text-left">
-                    <a href="/" class="p-2 bg-purple-800 rounded-full text-white text-lg font-bold">لازم نیست زیاده‌ازحد کار کنی</a>
+                    <a href="{{ $page->baseUrl }}" class="p-2 bg-purple-800 rounded-full text-white text-lg font-bold">لازم نیست زیاده‌ازحد کار کنی</a>
                 </div>
 
                 <div class="text-gray-700 text-center sm:text-left font-light">فصل {{ $page->number }}:</div>
@@ -36,7 +36,7 @@
 
                 <div class="text-purple-700 text-center sm:text-left hover:underline">
                     @if ($page->next_title)
-                        <a href="{{ $page->next_link }}">بعدی: {{ $page->next_title }}</a>
+                        <a href="{{ $page->baseUrl }}{{ $page->next_link }}">بعدی:  {{ $page->next_title }}</a>
                     @endif
                 
                     
