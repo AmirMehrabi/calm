@@ -82,6 +82,7 @@ title: صفحه نخست
                     <a href="chapters/12" class="mb-2 hover:underline text-sm lg:text-normal">زمان باکیفیت</a>
                     <a href="chapters/13" class="mb-2 hover:underline text-sm lg:text-normal">اثربخشی > بهره‌وری</a>
                     <a href="chapters/14" class="mb-2 hover:underline text-sm lg:text-normal">توهم بیشتر از دیگران کار کردن</a>
+                    <a href="chapters/15" class="mb-2 hover:underline text-sm lg:text-normal">کار در محل کار اتفاق نمی‌افتد</a>
 
                 </div>
 
